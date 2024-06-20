@@ -7,10 +7,12 @@ module.exports = {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
   },
-};
-
-plugins: [
+  plugins: [
     new HtmlWebpackPlugin({
-        template: './src/template.html',
+        template: './src/index.html',
+        filename:'index.html',
+        inject: 'body',
     }),
 ]
+};
+
