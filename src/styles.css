@@ -1,0 +1,35 @@
+
+
+
+body{
+    background-image: url('./images/9v3jpniphq181.png');
+    background-size:1500px 600px;
+    
+}
+
+nav{
+    display:flex;
+    justify-content:right;
+    gap:10px;
+}
+
+#content{
+    display:flex;
+    
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:100%;
+    width:100%
+}
+
+h1{
+    display:flex;
+    justify-content:center
+}
+
+.baratie{
+    margin-top:20px;
+    height:minmax(10%, 550px);
+    width:minmax(50%, 550px);
+}
