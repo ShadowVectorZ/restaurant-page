@@ -6,4 +6,10 @@ import { loadHome } from './loadHome.js'
 import './styles.css';
 
 const homeButton=document.querySelector('#home')
-homeButton.addEventListener('click',loadHome())
+homeButton.addEventListener('click',() =>{
+    loadHome()
+    homeButton.disabled=true
+})
+
+loadHome()
+homeButton.disabled=true
