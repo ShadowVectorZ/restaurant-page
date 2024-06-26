@@ -1,6 +1,7 @@
 
 
 import { loadHome } from './loadHome.js'
+import {loadMenu} from './loadMenu.js'
 import { loadAbout } from './loadAbout.js'
 
 import './styles.css';
@@ -19,7 +20,13 @@ homeButton.addEventListener('click',() =>{
     aboutButton.disabled=false
 })
 
-
+menuButton.addEventListener('click',() =>{
+    clearPage()
+    loadMenu()
+    homeButton.disabled=false
+    menuButton.disabled=true
+    aboutButton.disabled=false
+})
 
 
 aboutButton.addEventListener('click',() =>{
