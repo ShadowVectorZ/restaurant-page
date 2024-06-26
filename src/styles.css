@@ -42,3 +42,9 @@ h1{
 .employeesText{
     font-weight:bold
 }
+
+.food{
+    margin:10px;
+    height:300px;
+    width:300px;
+}
