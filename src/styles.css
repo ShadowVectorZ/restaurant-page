@@ -15,7 +15,6 @@ nav{
 
 #content{
     display:flex;
-    
     flex-direction:column;
     justify-content:center;
     align-items:center;
@@ -32,4 +31,10 @@ h1{
     margin-top:20px;
     height:minmax(10%, 550px);
     width:minmax(50%, 550px);
+}
+
+.employees{
+    margin:10px;
+    height:300px;
+    width:300px;
 }
