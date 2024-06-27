@@ -13,7 +13,7 @@ export function loadAbout(){
 
     const zeffP=document.createElement('p')
     zeffP.classList.add('employeesText')
-    zeffP.textContent='The captain of the ship, Zeff!'
+    zeffP.textContent='Cofounder and captain of the restaurant, Zeff is our head chef!'
     content.appendChild(zeffP)
 
     const sanjiPic=document.createElement('img')
@@ -23,7 +23,7 @@ export function loadAbout(){
 
     const sanjiP=document.createElement('p')
     sanjiP.classList.add('employeesText')
-    sanjiP.textContent='Sanji is the sous chef.'
+    sanjiP.textContent='Adopted son of Zeff, Sanji is our sous chef, and cofounded Baratie when he was only nine years old!'
     content.appendChild(sanjiP)
 
 
@@ -34,7 +34,7 @@ export function loadAbout(){
 
     const pattyP=document.createElement('p')
     pattyP.classList.add('employeesText')
-    pattyP.textContent='One of our main cooks, Patty is our head patissier!'
+    pattyP.textContent='One of our main cooks, Patty is our head patissier! (meaning he specializes in cakes and other pastry)'
     content.appendChild(pattyP)
 
     const carnePic=document.createElement('img')
@@ -44,7 +44,7 @@ export function loadAbout(){
 
     const carneP=document.createElement('p')
     carneP.classList.add('employeesText')
-    carneP.textContent='Carne is our head charcuttier! (go figure)'
+    carneP.textContent='When it comes to cooking meat, Carne is our best chef! (go figure)'
     content.appendChild(carneP)
 
     const luffyPic=document.createElement('img')
