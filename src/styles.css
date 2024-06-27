@@ -1,6 +1,4 @@
-/* *{
-    border:1px solid red;
-} */
+
 
 
 body{
@@ -42,7 +40,11 @@ h1{
 }
 
 .employeesText{
-    font-weight:bold
+    font-weight:bold;
+    width:450px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
 .food{
