@@ -1,5 +1,10 @@
 
-
+#copyright{
+    font-size:10px;
+    display:flex;
+    justify-content:right;
+    margin-top:60px
+}
 
 body{
     background-image: url('./images/Background_one_piece_by_xxhxaxx-d5jxfks.jpg');
